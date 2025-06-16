@@ -1,0 +1,14 @@
+.left-streaming-box{
+    
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    height: 30%;
+    margin-bottom: 3%; 
+}
+
+.video-streaming{
+    height: 100%;
+    width: 100%;  
+}

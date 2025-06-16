@@ -1,0 +1,25 @@
+{
+  "name": "campusviewapp_frontend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm run electron\" \"npm run start --prefix frontend\"",
+    "electron": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "electron": "^32.1.2",
+    "wait-on": "^8.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2",
+    "styled-components": "^6.1.13"
+  }
+}

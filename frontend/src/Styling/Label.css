@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272829;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

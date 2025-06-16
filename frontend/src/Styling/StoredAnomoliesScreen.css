@@ -1,0 +1,102 @@
+.main-container{
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    height: 100vh;
+    background-color: #f4f6f7; 
+    box-sizing: border-box; 
+    overflow-y: auto;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+}
+
+.storeAnomolies-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    height: 90vh; /* Occupy the rest of the space below the header */
+    overflow-y: auto; /* Enable scrolling if there are too many reports */
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+}
+
+
+.Element-Bar {
+    display: flex;
+    flex-direction: row; /* Align elements in a row */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Spread items evenly with space in between */
+    padding: 10px 20px; /* Optional padding for spacing */
+    background-color: #eeeef1; /* Light background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    gap: 10px; /* Optional: Space between items */
+    height: 14%;
+
+    border: 2px solid #a3a4a4;
+}
+
+.title{
+    
+    font-size: 1.2em; /* Adjust the size for better emphasis */
+    color: #333; /* Dark gray for readability */
+    margin: 0; /* Removes default margin from the h1 */
+    font-weight: bold;
+}
+
+.title-container{
+    background-color: white;
+    border-radius: 8px; /* Slightly larger for smoother corners */
+    padding: 15px 20px; /* Adds space around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
+    margin: 10px 0; /* Adds spacing between other components */
+    text-align: center;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+.Anomoly-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px; 
+    padding-top: 50px;
+    gap: 10px; 
+    background-color: #f2f1f1; 
+    border: 2px solid #272829; 
+    border-radius: 1px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    padding-bottom: 100px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,6 @@
+
+.parent-container{
+  width: 100%; /* Stretch to the full height of its parent */
+  height: 100vh; /* Ignoring the parent , stech full available and become more extend on need of time */
+  overflow: hidden; 
+}
