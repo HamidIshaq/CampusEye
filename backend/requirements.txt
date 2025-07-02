@@ -1,0 +1,13 @@
+# Python requirements for CampusEye Backend
+
+flask
+flask-cors
+pymongo
+opencv-python
+numpy
+pillow
+torch
+torchvision
+kafka-python
+scikit-learn
+requests
